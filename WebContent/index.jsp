@@ -6,5 +6,5 @@
 </head>
 <body>
 	Current Time: <%= java.util.Calendar.getInstance().getTime() %>
-	
+	<% out.print("Today is:"+java.util.Calendar.getInstance().getTime()); %>  
 </html>
